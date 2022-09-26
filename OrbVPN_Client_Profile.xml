@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnyConnectProfile xmlns="http://schemas.xmlsoap.org/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-insta$
+        <ClientInitialization>
+                <UseStartBeforeLogon UserControllable="true">false</UseStartBeforeLogon>
+                <AutomaticCertSelection UserControllable="true">false</AutomaticCertSelection>
+                <ShowPreConnectMessage>false</ShowPreConnectMessage>
+                <CertificateStore>All</CertificateStore>
+                <CertificateStoreMac>All</CertificateStoreMac>
+                <CertificateStoreOverride>false</CertificateStoreOverride>
+                <ProxySettings>Native</ProxySettings>
+                <AllowLocalProxyConnections>true</AllowLocalProxyConnections>
+                <AuthenticationTimeout>12</AuthenticationTimeout>
+                <AutoConnectOnStart UserControllable="true">false</AutoConnectOnStart>
+                <MinimizeOnConnect UserControllable="true">true</MinimizeOnConnect>
+                <LocalLanAccess UserControllable="true">true</LocalLanAccess>
+                <DisableCaptivePortalDetection UserControllable="true">false</DisableCaptivePortalDetection>
+                <ClearSmartcardPin UserControllable="true">true</ClearSmartcardPin>
+                <IPProtocolSupport>IPv4,IPv6</IPProtocolSupport>
+                <AutoReconnect UserControllable="false">true
+                        <AutoReconnectBehavior UserControllable="false">ReconnectAfterResume</AutoReconnectBehavi$
+                </AutoReconnect>
+                <AutoUpdate UserControllable="false">true</AutoUpdate>
+                <RSASecurIDIntegration UserControllable="false">Automatic</RSASecurIDIntegration>
+                <WindowsLogonEnforcement>SingleLocalLogon</WindowsLogonEnforcement>
+                <WindowsVPNEstablishment>AllowRemoteUsers</WindowsVPNEstablishment>
+                <AutomaticVPNPolicy>false</AutomaticVPNPolicy>
+                <PPPExclusion UserControllable="false">Disable
+                        <PPPExclusionServerIP UserControllable="false"></PPPExclusionServerIP>
+                </PPPExclusion>
+                <EnableScripting UserControllable="false">false</EnableScripting>
+                <EnableAutomaticServerSelection UserControllable="false">false
+                        <AutoServerSelectionImprovement>20</AutoServerSelectionImprovement>
+                        <AutoServerSelectionSuspendTime>4</AutoServerSelectionSuspendTime>
+                </EnableAutomaticServerSelection>
+                <RetainVpnOnLogoff>false
+                </RetainVpnOnLogoff>
+                <AllowManualHostInput>true</AllowManualHostInput>
+        </ClientInitialization>
+        <ServerList>
+                 
+                 <HostEntry>
+                        <HostName>Bahrain, Manama</HostName>
+                        <HostAddress>bh-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>Iran, Tehran</HostName>
+                        <HostAddress>ir-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>UK, London</HostName>
+                        <HostAddress>uk.iraip.com:7777</HostAddress>
+                </HostEntry>
+                
+                <HostEntry>
+                        <HostName>France, Paris</HostName>
+                        <HostAddress>fr-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>Ireland, Dublin</HostName>
+                        <HostAddress>ie-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>Germany, Frankfurt</HostName>
+                        <HostAddress>de-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>Italy, Milan</HostName>
+                        <HostAddress>it-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>Sweden, Stockholm</HostName>
+                        <HostAddress>se-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>USA, Virginia</HostName>
+                        <HostAddress>us-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>USA, California</HostName>
+                        <HostAddress>usca-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>USA, Ohio</HostName>
+                        <HostAddress>usoh-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>USA, Oregan</HostName>
+                        <HostAddress>usor-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>Canada, Montreal</HostName>
+                        <HostAddress>ca-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>Brazil, Sao Paulo</HostName>
+                        <HostAddress>br-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>South Africa, Cape Town</HostName>
+                        <HostAddress>za-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+                
+                <HostEntry>
+                        <HostName>Australia, Sydney</HostName>
+                        <HostAddress>au-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+                
+                <HostEntry>
+                        <HostName>South Korea, Seol</HostName>
+                        <HostAddress>sk-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>Japan, Osaka</HostName>
+                        <HostAddress>jp-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>Japan, Tokyo</HostName>
+                        <HostAddress>jpto-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>Singapore</HostName>
+                        <HostAddress>sg-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+                <HostEntry>
+                        <HostName>Hong Kong</HostName>
+                        <HostAddress>hk-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+                
+                <HostEntry>
+                        <HostName>Indonesia, Jakarta</HostName>
+                        <HostAddress>id-cl.iraip.com:7777</HostAddress>
+                </HostEntry>                
+
+                <HostEntry>
+                        <HostName>India, Mumbai</HostName>
+                        <HostAddress>in-cl.iraip.com:7777</HostAddress>
+                </HostEntry>
+
+        </ServerList>
+</AnyConnectProfile>
